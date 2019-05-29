@@ -1,6 +1,8 @@
 #
 #
 # REMEMBER TO CHANGE VERSION NUMBER IN "setup.py" WHEN MODIFYING CODE
+# REMEMBER TO CHANGE VERSION NUMBER IN "setup.py" WHEN MODIFYING CODE
+# REMEMBER TO CHANGE VERSION NUMBER IN "setup.py" WHEN MODIFYING CODE
 
 import re
 
@@ -15,6 +17,6 @@ def validate_nzbn(nzbn):
 
     if len(nzbn_to_validate) == 13:
         if nzbn_to_validate[0] == "9":
-            return nzbn_to_validate
+            return True
     else:
-        return nzbn
+        return False
