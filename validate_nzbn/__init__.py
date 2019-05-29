@@ -1,7 +1,12 @@
+#
+#
+# REMEMBER TO CHANGE VERSION NUMBER WHEN MODIFYING CODE
+
+
 def validate_nzbn(nzbn):
-    if len(nzbn) == 13 and nzbn[0] == 9:
+    if len(nzbn) == 13 and nzbn[:1] == 9:
         return True
     if nzbn is None:
-        return None
+        return "empty"
     else:
         return False
