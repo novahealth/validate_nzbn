@@ -4,9 +4,7 @@
 
 
 def validate_nzbn(nzbn):
-    if len(nzbn) == 13 and nzbn[:1] == 9:
+    if len(nzbn) == 13:
         return True
-    if nzbn is None:
-        return "empty"
     else:
         return False
