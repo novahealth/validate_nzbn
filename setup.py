@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-your-username",
-    version="0.0.8",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    name="validate_nzbn",
+    version="1.0.0",
+    author="John Michael Lulu",
+    author_email="mickey@novahealth.co.nz",
+    description="Package for validating an NZBN number",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/sampleproject",
